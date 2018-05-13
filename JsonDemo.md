@@ -22,7 +22,8 @@ open file:
   "grammar":"javascript",
   "path":"tpa", 
   "userId":"tc"
-}```
+}
+```
 
 
 
@@ -40,7 +41,8 @@ close file:
     "row":1, 
     "column":2
   }
-}```
+}
+```
 
 
 
@@ -57,7 +59,8 @@ move cursor:
     "row":1, 
     "column":2
   }
-}```
+}
+```
 
 
 
@@ -69,7 +72,8 @@ change to active:
   "type":"activate",
   "path":"tpa",
   "isActiveUser":true
-}```
+}
+```
 
 
 
@@ -82,6 +86,7 @@ change grammar:
   "path":"tpa",
   "userId":"tc",
   "grammar":"java"
-}```
+}
+```
 
 
