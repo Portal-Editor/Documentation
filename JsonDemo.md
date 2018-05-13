@@ -7,6 +7,7 @@ init:
   "a":"meta", 
   "type":"init",
   "userId":"tc",
+  "name":"tn"
   "portalId":"tp"
 }
 ```
