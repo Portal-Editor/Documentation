@@ -2,13 +2,13 @@
 
 init:
 
-```
+```javascript
 {
-  "a":"meta", 
-  "type":"init",
-  "userId":"tc",
-  "name":"tn"
-  "portalId":"tp"
+  "a": "meta", 
+  "type": "init",
+  "userId": "tc",
+  "name": "tn"
+  "portalId": "tp"
 }
 ```
 
@@ -16,13 +16,12 @@ init:
 
 open file:
 
-```
+```javascript
 {
-  "a":"meta", 
-  "type":"openFile",
-  "grammar":"javascript",
-  "path":"tpa", 
-  "userId":"tc"
+  "a": "meta", 
+  "type": "openFile",
+  "grammar": "javascript",
+  "path": "tpa"
 }
 ```
 
@@ -30,18 +29,11 @@ open file:
 
 close file:
 
-```
+```javascript
 {
-  "a":"meta", 
-  "type":"closeFile",
-  "path":"tpa",
-  "userId":"tc",
-  "newPath":"tpa2", //可空
-  "newPosition": //如果newPath是null，则newPosition也为null
-  {
-    "row":1, 
-    "column":2
-  }
+  "a": "meta", 
+  "type": "closeFile",
+  "path": "tpa"
 }
 ```
 
@@ -49,12 +41,11 @@ close file:
 
 move cursor:
 
-```
+```javascript
 {
-  "a":"meta", 
-  "type":"moveCursor",
-  "path":"tpa",
-  "userId":"tc",
+  "a": "meta", 
+  "type": "moveCursor",
+  "path": "tpa",
   "newPosition":
   {
     "row":1, 
@@ -67,12 +58,12 @@ move cursor:
 
 change to active:
 
-```
+```javascript
 {
-  "a":"meta", 
-  "type":"activate",
-  "path":"tpa",
-  "isActiveUser":true
+  "a": "meta", 
+  "type": "changeActiveStatus",
+  "path": "tpa",
+  "isActiveUser": true
 }
 ```
 
@@ -80,13 +71,13 @@ change to active:
 
 change grammar:
 
-```
+```javascript
 {
-  "a":"meta",
-  "type":"changeGrammar",
-  "path":"tpa",
-  "userId":"tc",
-  "grammar":"java"
+  "a": "meta",
+  "type": "changeGrammar",
+  "path": "tpa",
+  "userId": "tc",
+  "grammar": "java"
 }
 ```
 
