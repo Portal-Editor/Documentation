@@ -75,7 +75,7 @@
 ``` js
 {
     "a": "meta",
-    "type": "fileClosed",
+    "type": "closeFile",
     "path": "a.txt",
     "userId": 'userId-dfswefv'
 }
