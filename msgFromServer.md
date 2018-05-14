@@ -60,12 +60,12 @@
 }
 ```
 
-### Occupant Cleared
+### Occupier Cleared
 
 ``` js
 {
     "a": "meta",
-    "type" : "occupantCleared",
+    "type" : "occupierCleared",
     "path": "a.txt"
 }
 ```
