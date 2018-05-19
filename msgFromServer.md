@@ -97,3 +97,48 @@
     "userId": "userId-ijhy78iodiwjoje3"
 }
 ```
+
+### File Saved
+
+``` js
+{
+    'a': 'meta',
+    'type': 'saveFile',
+    'path': 'a.txt',
+    'userId': 'userid-vgbhnjmkm'
+}
+```
+
+### New File
+
+``` js
+{
+    'a': 'meta',
+    'type': 'newFile',
+    'path': 'a.txt',
+    'userId': 'userid-vgbhnjmkm'
+}
+```
+
+### Delete File
+
+``` js
+{
+    'a': 'meta',
+    'type': 'deleteFile',
+    'path': 'a.txt',
+    'userId': 'userid-vgbhnjmkm'
+}
+```
+
+### Move File
+重命名/移动文件
+
+``` js
+{
+    'a': 'meta',
+    'type': 'renameFile',
+    'path': 'a.txt',
+    'newPath': 'b.txt',
+    'userId': 'userid-vgbhnjmkm'
+}
