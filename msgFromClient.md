@@ -98,7 +98,7 @@ create file:
   "a": "meta",
   "type": "createFile",
   "path": "tpa",
-  "data": "data
+  "isFolder": true
 }
 ```
 
