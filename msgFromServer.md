@@ -130,6 +130,7 @@
     'a': 'meta',
     'type': 'deleteFile',
     'path': 'a.txt',
+    'isFolder': true,
     'userId': 'userid-vgbhnjmkm'
 }
 ```
