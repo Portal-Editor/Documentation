@@ -28,10 +28,11 @@
         'userId2': {
             'id': 'userId2',
             'name': 'kevinz',
-            'color': '#123456'
+            'color': '#0080FF'
         }
     },
-    "data": [80,75,3,4,10,0,0,0,0,0,11,...,0,0,0]
+    "data": [80,75,3,4,10,0,0,0,0,0,11,...,0,0,0],
+    "portalId": "aaaa-bbbb-cccc"
 }
 ```
 ~~另外还要发一下压缩包。~~**DONE**
@@ -139,7 +140,7 @@
 ``` js
 {
     'a': 'meta',
-    'type': 'renameFile',
+    'type': 'moveFile',
     'path': 'a.txt',
     'newPath': 'b.txt',
     'userId': 'userid-vgbhnjmkm'

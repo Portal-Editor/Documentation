@@ -1,4 +1,4 @@
-# Json Demo
+# Message from Client
 
 init:
 
@@ -78,6 +78,27 @@ change grammar:
   "path": "tpa",
   "userId": "tc",
   "grammar": "java"
+}
+```
+
+save file:
+
+```javascript
+{
+  "a": "meta",
+  "type": "saveFile",
+  "path": "tpa"
+}
+```
+
+create file:
+
+```javascript
+{
+  "a": "meta",
+  "type": "createFile",
+  "path": "tpa",
+  "data": "data
 }
 ```
 
