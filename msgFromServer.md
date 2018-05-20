@@ -110,12 +110,12 @@
 }
 ```
 
-### New File
+### Create File
 
 ``` js
 {
     'a': 'meta',
-    'type': 'newFile',
+    'type': 'createFile',
     'path': 'a.txt',
     'userId': 'userid-vgbhnjmkm'
 }
@@ -138,7 +138,7 @@
 ``` js
 {
     'a': 'meta',
-    'type': 'renameFile',
+    'type': 'moveFile',
     'path': 'a.txt',
     'newPath': 'b.txt',
     'userId': 'userid-vgbhnjmkm'
