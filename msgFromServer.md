@@ -109,12 +109,14 @@
 }
 ```
 
-### New File
+### Create File
 
 ``` js
 {
     'a': 'meta',
-    'type': 'newFile',
+    'type': 'createFile',
+    'isFolder': false,
+    'isOpen': true,
     'path': 'a.txt',
     'userId': 'userid-vgbhnjmkm'
 }
