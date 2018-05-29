@@ -37,6 +37,17 @@
 ```
 ~~另外还要发一下压缩包。~~**DONE**
 
+### Init Failed
+由于各种各样的原因新建/加入失败了
+
+``` js
+{
+    'a': 'meta',
+    'type': 'initFailed',
+    'detail': 'blablablablabla'
+}
+```
+
 ### User Joined
 当有新用户加入时广播其它用户
 
