@@ -8,7 +8,8 @@ init:
   "type": "init",
   "userId": "tc",
   "name": "tn"
-  "portalId": "tp"
+  "portalId": "tp",
+  "initNewPortal": true
 }
 ```
 
